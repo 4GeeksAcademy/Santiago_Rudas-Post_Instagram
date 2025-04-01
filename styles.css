@@ -1,0 +1,51 @@
+.botones-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.justify-text{
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.tab-pane{
+  background-color: cadetblue;
+}
+
+.contenedor-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contenedor-post .img-correjida{
+  object-fit: cover;
+  width: 110%;
+  height: 110%;
+}
+
+.heart-like {
+  color: white;
+  font-size: 0rem;
+  position: absolute;
+  opacity: 0; 
+  z-index: 2;
+}
+
+.contenedor-post:hover .heart-like {
+  font-size: 4rem; 
+  opacity: 0.5; 
+  animation: aparecer 0.4s forwards;
+}
+
+@keyframes aparecer {
+  0% {
+    font-size: 0rem;
+    opacity: 0;
+  }
+  100% {
+    font-size: 9rem;
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-instagram d-inline-block align-text-top"></i>
+          Instagram
+        </a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+  
+      </div>
+    </nav>
+
+    <nav class="botones-nav">
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+          <i class="bi bi-border-all"></i>
+        </button>
+
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+          <i class="bi bi-file-fill"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="post-1 tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+        <div class="row mb-3 mr-3 ml-3">
+          <div class="contenedor-post col p-2 ">
+            <img class="img-fluid img-correjida" src="https://www.ongvoluntariado.org/wp-content/uploads/2018/05/fauna-toucan_costa_rica.jpg"  alt="imagen de un tucan">
+            <i class="icono-corazon bi bi-heart-fill  heart-like"></i>
+          </div>
+  
+          <div class="contenedor-post col p-2 ">
+            <img class="img-fluid img-correjida" src="https://www.panamapacifico.com/wp-content/uploads/2020/11/shutterstock_1704263050_opt-768x513.jpg"  alt="imagen de un tucan">
+            <i class="icono-corazon bi bi-heart-fill  heart-like"></i>
+          </div>
+  
+          <div class="contenedor-post col p-2 ">
+            <img class="img-fluid img-correjida" src="https://blogs.ciencia.unam.mx/cienciamundo/files/2017/04/ImagenDestacada-2.jpg"  alt="imagen de un tucan">
+            <i class="icono-corazon bi bi-heart-fill  heart-like"></i>
+          </div>
+      </div>
+      <div class="row">
+        <div class="contenedor-post col p-2 ">
+          <img class="img-fluid img-correjida" src="https://panamasailingtrips.weebly.com/uploads/8/3/4/5/83453952/green-sea-turtle-tortuga-verde-5_orig.jpg"  alt="imagen de un tucan">
+          <i class="icono-corazon bi bi-heart-fill  heart-like"></i>
+        </div>
+  
+        <div class="contenedor-post col p-2 ">
+          <img class="img-fluid img-correjida" src="https://avesdeperu.org/wp-content/uploads/2020/08/Daniel-Garcia_optimized_name.jpg"  alt="imagen de un tucan">
+          <i class="icono-corazon bi bi-heart-fill  heart-like"></i>
+        </div>
+  
+        <div class="contenedor-post col p-2 ">
+          <img class="img-fluid img-correjida" src="https://ranchotexaslanzarote.com/wp-content/uploads/2008/10/376_Animales-Rancho-Texas-e1724857790456.webp"  alt="imagen de un tucan">
+          <i class="icono-corazon bi bi-heart-fill  heart-like"></i>
+        </div>
+    </div>
+      </div>
+
+      <div class="tab-pane fade d-flex justify-content-center align-items-center" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="d-flex flex-column justify-content-center">
+
+          <div class="col-6 card mt-3" style="width: 35rem;">
+            <img src="https://www.ongvoluntariado.org/wp-content/uploads/2018/05/fauna-toucan_costa_rica.jpg" class="card-img-top" alt="imagen de tucan">
+            <div class="card-body">
+              <h5 class="card-title">TUCAN</h5>
+              <p class="card-text">Un dato curioso sobre los tucanes de Panamá es que su gran pico,
+                 aunque parece pesado, es sorprendentemente ligero gracias a su estructura porosa. 
+                 Esto les ayuda a volar con mayor facilidad.</p>
+              <a href="#" class="btn btn-primary">Saber Más</a>
+            </div>
+          </div>
+
+          <div class="col-6 card mt-3" style="width: 35rem;">
+            <img src="https://www.panamapacifico.com/wp-content/uploads/2020/11/shutterstock_1704263050_opt-768x513.jpg" class="card-img-top" alt="imagen de perezoso">
+            <div class="card-body">
+              <h5 class="card-title">PEREZOSO</h5>
+              <p class="card-text">Un dato curioso sobre el perezoso de Panamá es que su metabolismo es tan lento que puede
+                 pasar hasta una semana sin defecar, ya que su digestión puede durar varios días debido a su dieta basada 
+                 principalmente en hojas de bajo valor energético.</p>
+              <a href="#" class="btn btn-primary">Saber Más</a>
+            </div>
+          </div>
+
+          <div class="col-6 card mt-3" style="width: 35rem;">
+            <img src="https://blogs.ciencia.unam.mx/cienciamundo/files/2017/04/ImagenDestacada-2.jpg" class="card-img-top" alt="imagen de tucan">
+            <div class="card-body">
+              <h5 class="card-title">RANA DORADA</h5>
+              <p class="card-text">Un dato curioso sobre la rana dorada de Panamá es que su color brillante no solo es una
+                 advertencia de su toxicidad, sino que también es una defensa contra los depredadores. Estas ranas tienen 
+                 uno de los venenos más potentes del mundo animal, que las hace peligrosas para quienes intenten comerlas.</p>
+              <a href="#" class="btn btn-primary">Saber Más</a>
+            </div>
+          </div>
+
+
+          <div class="col-6 card mt-3" style="width: 35rem;">
+            <img src="https://panamasailingtrips.weebly.com/uploads/8/3/4/5/83453952/green-sea-turtle-tortuga-verde-5_orig.jpg" class="card-img-top" alt="imagen de tucan">
+            <div class="card-body">
+              <h5 class="card-title">TORTUGA MARINA</h5>
+              <p class="card-text">Un dato curioso sobre la tortuga marina de Panamá es que vuelven a las mismas playas donde
+                 nacieron para poner sus huevos. Este fenómeno, conocido como "natal homing", les permite regresar a su lugar
+                  de origen después de recorrer miles de kilómetros en el océano.</p>
+              <a href="#" class="btn btn-primary">Saber Más</a>
+            </div>
+          </div>
+
+          <div class="col-6 card mt-3" style="width: 35rem;">
+            <img src="https://avesdeperu.org/wp-content/uploads/2020/08/Daniel-Garcia_optimized_name.jpg" class="card-img-top" alt="imagen de perezoso">
+            <div class="card-body">
+              <h5 class="card-title">ÁGUILA ARPÍA</h5>
+              <p class="card-text">Un dato curioso sobre el águila arpía de Panamá es que es una de las águilas más poderosas 
+                del mundo, capaz de levantar presas de hasta dos veces su peso. Su gran fuerza le permite cazar animales grandes
+                 como monos y perezosos en lo alto de los árboles.</p>
+              <a href="#" class="btn btn-primary">Saber Más</a>
+            </div>
+          </div>
+
+          <div class="col-6 card mt-3" style="width: 35rem;">
+            <img src="https://ranchotexaslanzarote.com/wp-content/uploads/2008/10/376_Animales-Rancho-Texas-e1724857790456.webp" class="card-img-top" alt="imagen de tucan">
+            <div class="card-body">
+              <h5 class="card-title">IGUANA</h5>
+              <p class="card-text">Un dato curioso sobre la iguana de Panamá es que, a diferencia de muchas otras especies, 
+                puede nadar muy bien. Utiliza sus fuertes patas y su cola para moverse en el agua, y a menudo se sumergen para 
+                escapar de los depredadores o buscar comida.</p>
+              <a href="#" class="btn btn-primary">Saber Más</a>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    
+    
+      
+    <script src="script.js"></script>
+  </body>
+</html>
